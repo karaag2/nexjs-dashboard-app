@@ -1,0 +1,16 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+overrides:
+  rome: link:../../../../../AppData/Local/pnpm/global/5/node_modules/rome
+
+importers:
+
+  .:
+    dependencies:
+      rome:
+        specifier: link:../../../../../AppData/Local/pnpm/global/5/node_modules/rome
+        version: link:../../../../../AppData/Local/pnpm/global/5/node_modules/rome
